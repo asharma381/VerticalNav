@@ -209,6 +209,7 @@ Main components
   transform-origin: 100% 50%;
 }
 
+
 /* Touch devices */
 .touch .cd-nav-trigger {
   display: block;
@@ -219,13 +220,21 @@ Main components
   height: 44px;
   width: 44px;
   border-radius: 0.25em;
-  background: rgba(255, 255, 255, 0);
+  /* ---------
+   COLOR 
+   ---------*/
+   background: rgb(0,0,0); /* BLACK */
+  /*background: rgba(255, 255, 255, 0.9); /* WHITE */
 }
 .touch .cd-nav-trigger span {
   position: absolute;
   height: 4px;
   width: 4px;
-  background-color: #3e3947;
+  /* ---------
+   COLOR 
+   ---------*/
+   background-color: #fff; /* WHITE */
+  /*background-color: #3e3947;  UGLY PURPLE*/
   border-radius: 50%;
   left: 50%;
   top: 50%;
@@ -280,18 +289,27 @@ Main components
   -moz-transition-duration: 0.2s;
   transition-duration: 0.2s;
   border-radius: 0.25em;
-  background-color: rgba(255, 255, 255, 0.9);
+  /* ---------
+   COLOR 
+   ---------
+  background-color: rgba(255, 255, 255, 0.9); /* WHITE */
 }
 .touch #cd-vertical-nav a {
   display: block;
   padding: 1em;
-  border-bottom: 1px solid rgba(62, 57, 71, 0.1);
+  /* ---------
+   COLOR 
+   ---------*/
+  border-bottom: 1px solid rgba(62, 57, 71, 0.1); /* UGLY PURPLE */
 }
 .touch #cd-vertical-nav a span:first-child {
   display: none;
 }
 .touch #cd-vertical-nav a.is-selected span:last-child {
-  color: #d88683;
+  /* ---------
+   COLOR (ignore) 
+   ---------*/
+  color: #000; /* d88683 */
 }
 .touch #cd-vertical-nav.open {
   -webkit-transform: scale(1);
@@ -304,10 +322,16 @@ Main components
   background-color: transparent;
 }
 .touch #cd-vertical-nav.open + .cd-nav-trigger span {
-  background-color: rgba(62, 57, 71, 0);
+  /* ---------
+   COLOR 
+   ---------*/
+  background-color: rgba(62, 57, 71, 0); /* UGLY PURPLE */
 }
 .touch #cd-vertical-nav.open + .cd-nav-trigger span::before, .touch #cd-vertical-nav.open + .cd-nav-trigger span::after {
-  background-color: #3e3947;
+  /* ---------
+   COLOR 
+   ---------*/
+  background-color: #3e3947; /* UGLY PURPLE*/
   height: 3px;
   width: 20px;
   border-radius: 0;
