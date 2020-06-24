@@ -209,7 +209,6 @@ Main components
   transform-origin: 100% 50%;
 }
 
-
 /* Touch devices */
 .touch .cd-nav-trigger {
   display: block;
@@ -220,21 +219,13 @@ Main components
   height: 44px;
   width: 44px;
   border-radius: 0.25em;
-  /* ---------
-   COLOR 
-   ---------*/
-   background: rgb(0,0,0); /* BLACK */
-  /*background: rgba(255, 255, 255, 0.9); /* WHITE */
+  background: rgba(255, 255, 255, 0.9);
 }
 .touch .cd-nav-trigger span {
   position: absolute;
   height: 4px;
   width: 4px;
-  /* ---------
-   COLOR 
-   ---------*/
-   background-color: #fff; /* WHITE */
-  /*background-color: #3e3947;  UGLY PURPLE*/
+  background-color: #3e3947;
   border-radius: 50%;
   left: 50%;
   top: 50%;
@@ -289,27 +280,18 @@ Main components
   -moz-transition-duration: 0.2s;
   transition-duration: 0.2s;
   border-radius: 0.25em;
-  /* ---------
-   COLOR 
-   --------- */
-  background-color: rgba(255, 255, 255, 0.9); /* WHITE */
+  background-color: rgba(255, 255, 255, 0.9);
 }
 .touch #cd-vertical-nav a {
   display: block;
   padding: 1em;
-  /* ---------
-   COLOR 
-   ---------*/
-  border-bottom: 1px solid rgba(62, 57, 71, 0.1); /* UGLY PURPLE */
+  border-bottom: 1px solid rgba(62, 57, 71, 0.1);
 }
 .touch #cd-vertical-nav a span:first-child {
   display: none;
 }
 .touch #cd-vertical-nav a.is-selected span:last-child {
-  /* ---------
-   COLOR (ignore) 
-   ---------*/
-  color: #000; /* d88683 */
+  color: #d88683;
 }
 .touch #cd-vertical-nav.open {
   -webkit-transform: scale(1);
@@ -322,16 +304,10 @@ Main components
   background-color: transparent;
 }
 .touch #cd-vertical-nav.open + .cd-nav-trigger span {
-  /* ---------
-   COLOR 
-   ---------*/
-  background-color: rgba(62, 57, 71, 0); /* UGLY PURPLE */
+  background-color: rgba(62, 57, 71, 0);
 }
 .touch #cd-vertical-nav.open + .cd-nav-trigger span::before, .touch #cd-vertical-nav.open + .cd-nav-trigger span::after {
-  /* ---------
-   COLOR 
-   ---------*/
-  background-color: #3e3947; /* UGLY PURPLE*/
+  background-color: #3e3947;
   height: 3px;
   width: 20px;
   border-radius: 0;
