@@ -291,9 +291,12 @@ Main components
   padding: 1em;
   border-bottom: 1px solid rgba(62, 57, 71, 0.1);                  
 }
+.touch #cd-vertical-nav a.is-selected {
+  background-color: rgba(0, 0, 255, 0.9);
+}
+
 .touch #cd-vertical-nav a span:first-child {
   display: none;
-  background-color: rgba(0, 0, 255, 0.9);
 }
 .touch #cd-vertical-nav a.is-selected span:last-child {
   color: #d88683;
