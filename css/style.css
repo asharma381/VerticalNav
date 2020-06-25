@@ -430,9 +430,9 @@ Main components
   -moz-transition-duration: 0.2s;
   transition-duration: 0.2s;
   border-radius: 0.25em;
-  border: 10px;
+/*  border: 10px;
   border-style: solid;
-  border-color: #00ff00;
+  border-color: #00ff00;*/
   /* ---------
    COLOR 
    --------- */
@@ -444,6 +444,9 @@ Main components
   display: block;
   padding: 1em;
   text-decoration: none;
+  border: 10px;
+  border-style: solid;
+  border-color: #00ff00;
   /* ---------
    COLOR (Line of the bottom of each card item)
    ---------*/
