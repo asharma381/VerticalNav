@@ -308,7 +308,7 @@ Main components
   background-color: transparent;
 }
 .touch #cd-vertical-nav.open + .cd-nav-trigger span {
-  background-color: rgba(62, 57, 71, 0);
+  background-color: rgba(0, 0, 71, 0);
 }
 .touch #cd-vertical-nav.open + .cd-nav-trigger span::before, .touch #cd-vertical-nav.open + .cd-nav-trigger span::after {
   background-color: #ff0000;
