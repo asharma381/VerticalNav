@@ -209,6 +209,10 @@ Main components
   transform-origin: 100% 50%;
 }
 
+
+
+
+
 /* Touch devices */
 .touch .cd-nav-trigger {
   display: block;
@@ -280,12 +284,12 @@ Main components
   -moz-transition-duration: 0.2s;
   transition-duration: 0.2s;
   border-radius: 0.25em;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(200, 200, 200, 0.9);
 }
 .touch #cd-vertical-nav a {
   display: block;
   padding: 1em;
-  border-bottom: 1px solid rgba(62, 57, 71, 0.1);
+  border-bottom: 1px solid rgba(62, 57, 71, 0.1);                  
 }
 .touch #cd-vertical-nav a span:first-child {
   display: none;
