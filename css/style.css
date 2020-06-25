@@ -293,9 +293,9 @@ Main components
 }
 .touch #cd-vertical-nav a span:first-child {
   display: none;
+  background-color: rgba(0, 0, 255, 0.9);
 }
 .touch #cd-vertical-nav a.is-selected span:last-child {
-  background-color: rgba(0, 0, 255, 0.9);
   color: #d88683;
 }
 .touch #cd-vertical-nav.open {
@@ -309,7 +309,8 @@ Main components
   background-color: transparent;
 }
 .touch #cd-vertical-nav.open + .cd-nav-trigger span {
-  background-color: rgba(0, 0, 255, 0);
+  background-color: rgba(0, 0, 255, 0.9);
+  /*background-color: rgba(0, 0, 255, 0);*/
 }
 .touch #cd-vertical-nav.open + .cd-nav-trigger span::before, .touch #cd-vertical-nav.open + .cd-nav-trigger span::after {
   background-color: #ff0000;
