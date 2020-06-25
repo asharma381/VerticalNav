@@ -295,6 +295,7 @@ Main components
   display: none;
 }
 .touch #cd-vertical-nav a.is-selected span:last-child {
+  background-color: rgba(0, 0, 255, 0.9);
   color: #d88683;
 }
 .touch #cd-vertical-nav.open {
