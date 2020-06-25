@@ -299,7 +299,8 @@ Main components
   display: none;
 }
 .touch #cd-vertical-nav a.is-selected span:last-child {
-  color: #d88683;
+  text-decoration: none;
+  color: #fff;
 }
 .touch #cd-vertical-nav.open {
   -webkit-transform: scale(1);
