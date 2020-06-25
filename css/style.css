@@ -229,7 +229,7 @@ Main components
   position: absolute;
   height: 4px;
   width: 4px;
-  background-color: #3e3947;
+  background-color: #00ff00;
   border-radius: 50%;
   left: 50%;
   top: 50%;
@@ -284,7 +284,7 @@ Main components
   -moz-transition-duration: 0.2s;
   transition-duration: 0.2s;
   border-radius: 0.25em;
-  background-color: rgba(200, 200, 200, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 .touch #cd-vertical-nav a {
   display: block;
