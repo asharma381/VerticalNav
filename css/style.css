@@ -430,7 +430,7 @@ Main components
   -moz-transition-duration: 0.2s;
   transition-duration: 0.2s;
   border-radius: 0.25em;
-  border: 10px;
+  border: 2px;
   border-style: solid;
   border-color: #00ff00;
   /* ---------
@@ -483,7 +483,7 @@ Main components
   /* ---------
    COLOR 
    ---------*/
-  background-color: rgba(0, 0, 255, 0.9);
+  background-color: rgba(0, 0, 255, 0.9); /* test to see what this does? */
  /* background-color: rgba(62, 57, 71, 0);  UGLY PURPLE */
 }
 .touch #cd-vertical-nav.open + .cd-nav-trigger span::before, .touch #cd-vertical-nav.open + .cd-nav-trigger span::after {
