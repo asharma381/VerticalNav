@@ -444,9 +444,9 @@ Main components
   display: block;
   padding: 1em;
   text-decoration: none;
-  border: 10px;
+/*  border: 10px;
   border-style: solid;
-  border-color: #00ff00;
+  border-color: #00ff00;*/
   /* ---------
    COLOR (Line of the bottom of each card item)
    ---------*/
