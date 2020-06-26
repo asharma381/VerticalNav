@@ -429,7 +429,7 @@ Main components
   -webkit-transition-duration: 0.2s;
   -moz-transition-duration: 0.2s;
   transition-duration: 0.2s;
-  border-radius: 0.25em;
+  border-radius: 0.75em;
   border: 2px;
   border-style: solid;
   border-color: #00ff00;
